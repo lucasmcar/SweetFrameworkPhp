@@ -1,6 +1,6 @@
 <h3>1. O Framework </h3>
 
-O SweetFrameworkPhp foi pensado para ser um framework simples, de fácil adesão e sem precisar usar o composer.
+O SweetFrameworkPhp foi pensado para ser um framework simples, de fácil adesão, Orientado a Objeto e sem precisar usar o composer.
 
 <h4>1.1 O padrão de nomenclatura </h4>
 <ul>
@@ -33,10 +33,10 @@ O SweetFrameworkPhp foi pensado para ser um framework simples, de fácil adesão
 A classe abstrata Mensagem foi pensada para que o desenvolvedor crie suas própias mensagens,
 de **Sucesso** e **Falha**
 
-Se o arquivo não existir; 
+Se o arquivo não existir; <br>
 Se o formato não for o correto;
 
-O valor padrão de parametro das mensagens são do tipo inteiro.
+O valor padrão de parametro das mensagens é do tipo inteiro.
 
 ![message](https://user-images.githubusercontent.com/21208286/73621099-87822e00-4613-11ea-837c-97819f181c3e.jpg)
 
@@ -45,7 +45,7 @@ Você deve chamar a classe Message e invocar o Método showErrors ou showSuccess
 ***Obs: Não esqueça de incluir o arquivo de mensagem***
 
 ```
-require('diretorio/Message.php');
+require('diretorio/Message.php'); //Se a classe mensagem não se encontrar no mesmo diretório da classe em que você for invocá-la.
 
 Message::showError($num)  
 
