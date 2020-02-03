@@ -1,6 +1,6 @@
 <h3>1. O Framework </h3>
 
-O SweetFrameworkPhp foi pensado para ser um framework simples, de fácil adesão, Orientado a Objeto e sem precisar usar o composer.
+O SweetFrameworkPhp é um framework php quefoi pensado para ser um framework simples, de fácil adesão, Orientado a Objeto e sem precisar utilizar o composer.
 
 <h4>1.1 O padrão de nomenclatura </h4>
 <ul>
@@ -16,7 +16,7 @@ O SweetFrameworkPhp foi pensado para ser um framework simples, de fácil adesão
   }
   ```
   <li>1.1.2 - Para o nome de Interfaces: </li>
-  A nomenclatura das Interfaces segue o padrão das classes, com a diferença de que deve se colocar o I, ficando assim:
+  A nomenclatura das Interfaces segue o padrão das classes, com a diferença de que deve se colocar o I entre SW e NomeDaInterface, ficando assim:
   
   ```
   interface SWINomeDaInterface 
@@ -45,7 +45,10 @@ Você deve chamar a classe Message e invocar o Método showErrors ou showSuccess
 ***Obs: Não esqueça de incluir o arquivo de mensagem***
 
 ```
-require('diretorio/Message.php'); //Se a classe mensagem não se encontrar no mesmo diretório da classe em que você for invocá-la.
+/*Se a classe mensagem não se encontrar no mesmo diretório da classe em que você for invocá-la.
+ *A recomendação é que a classe se encontre no mesmo diretório
+ */
+require('diretorio/Message.php'); 
 
 Message::showError($num)  
 
