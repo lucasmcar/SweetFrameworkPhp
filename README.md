@@ -12,13 +12,12 @@ O valor padrão de parametro das mensagens são do tipo inteiro.
 
 Você deve chamar a classe Message e invocar o Método showError
 
-<h4>
 ```
 Message::showError  
 
 Message::showSuccess
 ```
-</h4>
+
 
 
 
