@@ -1,3 +1,5 @@
+<h3>2. A Classe Database </h3>
+
 <h3>3. A Classe Mensagem: </h3>
 
 A classe abstrata Mensagem foi pensada para que o desenvolvedor crie suas própias mensagens,
@@ -13,9 +15,9 @@ O valor padrão de parametro das mensagens são do tipo inteiro.
 Você deve chamar a classe Message e invocar o Método showError
 
 ```
-Message::showError  
+Message::showError($num)  
 
-Message::showSuccess
+Message::showSuccess($num)
 ```
 
 
