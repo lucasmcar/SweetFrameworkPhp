@@ -6,7 +6,19 @@ de **Sucesso** e **Falha**
 Se o arquivo não existir; 
 Se o formato não for o correto;
 
-O valor padrão de parametro das mensagens são do tipo inteiro
+O valor padrão de parametro das mensagens são do tipo inteiro.
+
+![message](https://user-images.githubusercontent.com/21208286/73621099-87822e00-4613-11ea-837c-97819f181c3e.jpg)
+
+Você deve chamar a classe Message e invocar o Método showError
+
+<h4>
+```
+Message::showError  
+
+Message::showSuccess
+```
+</h4>
 
 
 
